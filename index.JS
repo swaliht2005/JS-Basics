@@ -23,19 +23,27 @@
 // console.log(tatalmarck)
 
 
-let a = [1,2,3,4,5]
+// let a = [1,2,3,4,5]
 
-const duble = a.map (value => value*2)
-console.log(duble)
+// const duble = a.map (value => value*2)
+// console.log(duble)
 
-let c = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; 
-let b = [];
+// let c = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; 
+// let b = [];
 
 
-for (let i = 0; i < a.length; i++) {
-  if (a[i] > 4) {
-    b.push(a[i]);
-  }
+// for (let i = 0; i < a.length; i++) {
+//   if (a[i] > 4) {
+//     b.push(a[i]);
+//   }
+// }
+
+// console.log(b); 
+
+
+let a =[2,3,4,5,6]
+let sum =0;
+for (let i=0; i < a.length; i++){
+  sum += a[i]
 }
-
-console.log(b); 
+console.log(sum);
