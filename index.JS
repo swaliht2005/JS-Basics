@@ -41,9 +41,26 @@
 // console.log(b); 
 
 
-let a =[2,3,4,5,6]
-let sum =0;
-for (let i=0; i < a.length; i++){
-  sum += a[i]
+// let a =[2,3,4,5,6]
+// let sum =0;
+// for (let i=0; i < a.length; i++){
+//   sum += a[i]
+// }
+// console.log(sum);
+
+function fibonacci(start, end) {
+  let n = [0, 1];
+
+  
+  for (let i = 2; i <= end; i++) {
+      n[i] = n[i - 1] + n[i - 2];
+  }
+
+  
+  for (let i = start; i <= end; i++) {
+      console.log(n[i]);
+  }
 }
-console.log(sum);
+
+
+fibonacci(1, 10);
